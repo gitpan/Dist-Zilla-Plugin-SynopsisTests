@@ -1,0 +1,37 @@
+{
+   "resources" : {
+      "repository" : "http://github.com/hanekomu/Dist-Zilla-Plugin-SynopsisTests"
+   },
+   "generated_by" : "Dist::Zilla version 1.100660",
+   "meta-spec" : {
+      "version" : 1.4,
+      "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html"
+   },
+   "version" : "1.100700",
+   "name" : "Dist-Zilla-Plugin-SynopsisTests",
+   "author" : [
+      "Marcel Gruenauer <marcel@cpan.org>"
+   ],
+   "license" : "perl",
+   "build_requires" : {},
+   "provides" : {
+      "Dist::Zilla::Plugin::SynopsisTests" : {
+         "version" : "1.100700",
+         "file" : "lib/Dist/Zilla/Plugin/SynopsisTests.pm"
+      }
+   },
+   "requires" : {
+      "English" : "0",
+      "Test::Synopsis" : "0",
+      "Test::More" : "0",
+      "perl" : "5.008",
+      "File::Find" : "0",
+      "File::Temp" : "0",
+      "Moose" : "0",
+      "Dist::Zilla::Plugin::InlineFiles" : "0"
+   },
+   "abstract" : "release tests for synopses",
+   "configure_requires" : {
+      "ExtUtils::MakeMaker" : "6.11"
+   }
+}
